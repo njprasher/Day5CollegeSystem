@@ -8,22 +8,29 @@
 
 import Foundation
 
+enum Gender {
+    case MALE, FEMALE, OTHER
+}
+
 class Person
 {
     var id: Int
     var firstName: String
     var lastName: String
     var birthDate: Date
-    var gender: String
+    var gender: Gender
     var email: String
     
-    init() {
+    init()
+    {
         self.id = 0
         self.firstName = String()
         self.lastName = String()
         self.birthDate = Date()
-        self.gender = String()
+        self.gender = Gender.OTHER
         self.email = String()
     }
+    
+    
     
 }
