@@ -8,3 +8,9 @@
 
 import Foundation
 
+var p = Person()
+var s = Student()
+
+p.id = 100
+p.firstName = "Neeraj"
+p.fullName = "Hello"
