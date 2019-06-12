@@ -13,4 +13,7 @@ var s = Student()
 
 p.id = 100
 p.firstName = "Neeraj"
-p.fullName = "Hello"
+p.lastName = "Prasher"
+
+print(p.id ?? "No Id", p.firstName ?? "No name", p.lastName!, p.fullName)
+

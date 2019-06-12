@@ -12,14 +12,27 @@ class Student: Person
 {
     var marks: Dictionary<String, Float>
     var total: Float
+    {
+        var sum:Float = 0.0
+        for (_, v) in marks
+        {
+            sum = sum + v
+        }
+        return sum
+    }
+    
     var percentage: Float
+    {
+        return total / Float(marks.count)
+    }
+    
     var result: String
     
     override init()
     {
         self.marks = Dictionary<String, Float>()
-        self.total = Float()
-        self.percentage = Float()
+//        self.total = Float()
+//        self.percentage = Float()
         self.result = String()
         print("init() of Student")
 

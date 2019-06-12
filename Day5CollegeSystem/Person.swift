@@ -16,18 +16,19 @@ class Person
 {
 //    private _id: Int
     var id: Int?
-    {
-        get{
-            return self.id
-        }
-        set{
-            self.id = newValue
-        }
-    }
+//    {
+//        get{
+//            return self.id
+//        }
+//        set(){
+//            self.id = newValue
+//        }
+//    }
     //Computed Properties
     var firstName: String?
     var lastName: String?
     
+    //Read only Computed
     var fullName: String
     {
         return "\(firstName!) \(lastName!)"
@@ -39,7 +40,7 @@ class Person
     init()
     {
         print("init() of Person")
-        self.id = 0
+       // self.id = 0
         self.firstName = String()
         self.lastName = String()
         self.birthDate = Date()
