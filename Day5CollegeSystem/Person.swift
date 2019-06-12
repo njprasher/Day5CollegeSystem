@@ -14,16 +14,16 @@ enum Gender {
 
 class Person
 {
-//    private _id: Int
+    private var _id = Int()
     var id: Int?
-//    {
-//        get{
-//            return self.id
+    {
+        get{
+            return self._id
+        }
+//        set(value){
+//            self._id = value ?? 0
 //        }
-//        set(){
-//            self.id = newValue
-//        }
-//    }
+    }
     //Computed Properties
     var firstName: String?
     var lastName: String?
