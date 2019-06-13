@@ -13,4 +13,9 @@ struct Address {
     var city: String
     var postalCode: String
     var country: String
+    
+    mutating func setcity(city: String)
+    {
+        self.city = city
+    }
 }
