@@ -7,7 +7,9 @@
 //
 
 import Foundation
-struct Address {
+
+struct Address:Display
+{
     var suitNumber: Int
     var streeNumber: String
     var city: String
@@ -17,5 +19,8 @@ struct Address {
     mutating func setcity(city: String)
     {
         self.city = city
+    }
+    func Display() {
+        print(self.suitNumber, self.streeNumber, self.city, self.postalCode, self.postalCode, self.country)
     }
 }

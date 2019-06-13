@@ -25,5 +25,13 @@ s.email = "prasher.neeraj99@gmail.com"
 s.marks = ["Math": 89,
            "Science": 92,
            "English": 95]
-s.address?.city = "Toronto"
+
+s.address?.suitNumber = 234
+s.address?.streeNumber = "66Z"
+s.address?.city = "Brampton"
+s.address?.postalCode = "L6Y 4H7"
+s.address?.country = "Canada"
+
 s.Display()
+s.address?.Display()
+

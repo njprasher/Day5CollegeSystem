@@ -37,7 +37,8 @@ class Student: Person
         print("init() of Student")
 
     }
-    override func Display() {
-        print(s.firstName ?? "No first name", s.lastName ?? "No last name", s.birthDate ?? "No date of birth given", s.gender, s.email ?? "No email given", s.marks, s.total, s.percentage, s.address?.city ?? "No city given")
+    override func Display()
+    {
+        print(self.firstName ?? "No first name", self.lastName ?? "No last name", s.birthDate ?? "No date of birth given", self.gender, self.email ?? "No email given", self.marks, self.total, self.percentage)
     }
 }
