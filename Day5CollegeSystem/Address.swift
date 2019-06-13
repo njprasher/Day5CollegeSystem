@@ -10,4 +10,7 @@ import Foundation
 struct Address {
     var suitNumber: Int
     var streeNumber: String
+    var city: String
+    var postalCode: String
+    var country: String
 }

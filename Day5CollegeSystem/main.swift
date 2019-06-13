@@ -25,7 +25,5 @@ s.email = "prasher.neeraj99@gmail.com"
 s.marks = ["Math": 89,
            "Science": 92,
            "English": 95]
-
-print(s.firstName ?? "No first name", s.lastName ?? "No last name", s.birthDate ?? "No date of birth given", s.gender, s.email ?? "No email given", s.marks, s.total, s.percentage )
-
-s.dummy = 200
+s.address?.city = "Toronto"
+s.Display()

@@ -14,10 +14,8 @@ enum Gender {
 
 class Person : Display
 {
-    var dummy: Int
-    
     func Display() {
-        <#code#>
+        
     }
     
     private var _id = Int()
@@ -42,7 +40,6 @@ class Person : Display
     var birthDate: Date?
     var gender: Gender
     var email: String?
-    
     var address: Address?
     
     init()
@@ -54,7 +51,11 @@ class Person : Display
         self.birthDate = Date()
         self.gender = Gender.OTHER
         self.email = String()
+        self.address = Address(suitNumber: 0, streeNumber: "", city: "", postalCode: "", country: "")
     }
     
+    func display(){
+        
+    }
     
 }
