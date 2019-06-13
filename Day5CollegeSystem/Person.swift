@@ -12,8 +12,14 @@ enum Gender {
     case MALE, FEMALE, OTHER
 }
 
-class Person
+class Person : Display
 {
+    var dummy: Int
+    
+    func Display() {
+        <#code#>
+    }
+    
     private var _id = Int()
     var id: Int?
     {
