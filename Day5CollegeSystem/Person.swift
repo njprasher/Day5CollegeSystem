@@ -43,6 +43,8 @@ class Person : Display
     var gender: Gender
     var email: String?
     
+    var address: Address?
+    
     init()
     {
         print("init() of Person")
@@ -53,7 +55,6 @@ class Person : Display
         self.gender = Gender.OTHER
         self.email = String()
     }
-    
     
     
 }

@@ -1,5 +1,5 @@
 //
-//  Display.swift
+//  Address.swift
 //  Day5CollegeSystem
 //
 //  Created by Neeraj Prasher on 2019-06-13.
@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
-protocol Display {
-    func Display()
+struct Address {
+    var suitNumber: Int
+    var streeNumber: String
 }
