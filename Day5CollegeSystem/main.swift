@@ -11,7 +11,7 @@ import Foundation
 var p = Person()
 var s = Student()
 
-p.id = 100
+//p.id = 100 because private
 p.firstName = "Neeraj"
 p.lastName = "Prasher"
 
@@ -27,3 +27,5 @@ s.marks = ["Math": 89,
            "English": 95]
 
 print(s.firstName ?? "No first name", s.lastName ?? "No last name", s.birthDate ?? "No date of birth given", s.gender, s.email ?? "No email given", s.marks, s.total, s.percentage )
+
+s.dummy = 200
