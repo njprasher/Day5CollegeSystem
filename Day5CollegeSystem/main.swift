@@ -46,3 +46,9 @@ for x in listOfPersons
 {
     print(x.value.address!)
 }
+
+print(12.0.currency())
+
+var salary: Double
+salary  = 1000
+print( salary.currency() )

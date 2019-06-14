@@ -11,3 +11,11 @@ import Foundation
 protocol Display {
     func Display()
 }
+
+extension Double
+{
+    func currency() -> String
+    {
+        return "$\(self)"
+    }
+}
