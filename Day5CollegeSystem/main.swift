@@ -52,3 +52,20 @@ print(12.0.currency())
 var salary: Double
 salary  = 1000
 print( salary.currency() )
+
+let email = "nj@g.com"
+let inemail = "nj@com"
+
+if(email.isValidEmail())
+{
+    print("\(email) valid")
+}else{
+    print("\(email), invalid")
+}
+
+if(inemail.isValidEmail())
+{
+    print("\(inemail) valid")
+}else{
+    print("\(inemail) invalid")
+}
