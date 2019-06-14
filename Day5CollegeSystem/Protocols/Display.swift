@@ -18,6 +18,11 @@ extension Double
     {
         return "$\(self)"
     }
+    
+    mutating func multiply()
+    {
+        self = self*100
+    }
 }
 
 extension String

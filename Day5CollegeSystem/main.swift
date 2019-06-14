@@ -69,3 +69,12 @@ if(inemail.isValidEmail())
 }else{
     print("\(inemail) invalid")
 }
+
+var n: Double
+n = 10
+
+print(n)
+
+n.multiply()
+
+print(n)
