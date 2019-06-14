@@ -12,6 +12,7 @@
 		4C5B0D9022B1B581004966DF /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5B0D8F22B1B581004966DF /* Student.swift */; };
 		4C5B0D9322B304DF004966DF /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5B0D9222B304DF004966DF /* Display.swift */; };
 		4C5B0D9522B306F3004966DF /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5B0D9422B306F3004966DF /* Address.swift */; };
+		4C5B0D9922B31701004966DF /* Faculty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5B0D9822B31701004966DF /* Faculty.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		4C5B0D8F22B1B581004966DF /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		4C5B0D9222B304DF004966DF /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
 		4C5B0D9422B306F3004966DF /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		4C5B0D9822B31701004966DF /* Faculty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faculty.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				4C5B0D8622B1B160004966DF /* main.swift */,
 				4C5B0D8D22B1B227004966DF /* Person.swift */,
 				4C5B0D8F22B1B581004966DF /* Student.swift */,
+				4C5B0D9822B31701004966DF /* Faculty.swift */,
 				4C5B0D9422B306F3004966DF /* Address.swift */,
 			);
 			path = Day5CollegeSystem;
@@ -142,6 +145,7 @@
 				4C5B0D8E22B1B227004966DF /* Person.swift in Sources */,
 				4C5B0D9022B1B581004966DF /* Student.swift in Sources */,
 				4C5B0D9322B304DF004966DF /* Display.swift in Sources */,
+				4C5B0D9922B31701004966DF /* Faculty.swift in Sources */,
 				4C5B0D8722B1B160004966DF /* main.swift in Sources */,
 				4C5B0D9522B306F3004966DF /* Address.swift in Sources */,
 			);

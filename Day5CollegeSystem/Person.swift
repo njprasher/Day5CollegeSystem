@@ -8,14 +8,16 @@
 
 import Foundation
 
-enum Gender {
+enum Gender
+{
     case MALE, FEMALE, OTHER
 }
 
 class Person : Display
 {
-    func Display() {
-        
+    
+    func Display(){
+        print( "No Display Defined" )
     }
     
     private var _id = Int()
@@ -52,10 +54,6 @@ class Person : Display
         self.gender = Gender.OTHER
         self.email = String()
         self.address = Address(suitNumber: 0, streeNumber: "", city: "", postalCode: "", country: "")
-    }
-    
-    func display(){
-        
     }
     
 }

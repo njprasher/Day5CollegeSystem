@@ -21,6 +21,6 @@ struct Address:Display
         self.city = city
     }
     func Display() {
-        print(self.suitNumber, self.streeNumber, self.city, self.postalCode, self.postalCode, self.country)
+        print(self.suitNumber, self.streeNumber, self.city, self.postalCode, self.country)
     }
 }

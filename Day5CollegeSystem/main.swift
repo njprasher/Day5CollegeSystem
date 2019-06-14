@@ -17,6 +17,8 @@ p.lastName = "Prasher"
 
 print(p.id ?? "No Id", p.firstName ?? "No name", p.lastName!, p.fullName)
 
+
+
 s.firstName = "Neeraj"
 s.lastName = "Prasher"
 s.birthDate = Date()
@@ -25,7 +27,6 @@ s.email = "prasher.neeraj99@gmail.com"
 s.marks = ["Math": 89,
            "Science": 92,
            "English": 95]
-
 s.address?.suitNumber = 234
 s.address?.streeNumber = "66Z"
 s.address?.city = "Brampton"
@@ -35,3 +36,13 @@ s.address?.country = "Canada"
 s.Display()
 s.address?.Display()
 
+var listOfPersons: Dictionary<Int, Person>
+listOfPersons = Dictionary<Int, Person>()
+
+listOfPersons[1] = s
+
+
+for x in listOfPersons
+{
+    print(x.value.address!)
+}
